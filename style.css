@@ -130,4 +130,15 @@ body {
 .req-content h2 {
   font-weight: 800;
   color: var(--primary);
+}
+.req-content .req div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.req-content .req div p {
+  margin: 0;
+}
+.req-content .req img {
+  width: 60px;
 }/*# sourceMappingURL=style.css.map */

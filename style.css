@@ -125,4 +125,9 @@ body {
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
   color: var(--primary);
+}
+
+.req-content h2 {
+  font-weight: 800;
+  color: var(--primary);
 }/*# sourceMappingURL=style.css.map */

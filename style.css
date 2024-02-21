@@ -14,6 +14,72 @@ body {
   background-color: var(--primary);
   background-image: url(./images/hero-shape.png);
 }
+#hero h1 {
+  font-weight: 800;
+}
+#hero h1 small {
+  font-size: 16px;
+  font-weight: 400;
+}
+#hero .kontho-bar {
+  width: 50%;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+#hero .kontho-bar img {
+  width: 100%;
+}
+#hero h2 {
+  font-weight: 800;
+}
+#hero h2 span {
+  color: var(--secondary);
+}
+#hero .ms-btn {
+  padding: 8px 40px;
+  border-radius: 50px;
+  margin-top: 4rem;
+  color: black;
+  cursor: pointer;
+  background-color: var(--secondary);
+  border: 2px solid var(--secondary);
+  transition: all ease-in 0.3s;
+}
+#hero .ms-btn:hover {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+#hero .ms-btn .ms-btn-icon {
+  width: 40px;
+}
+#hero .ms-btn .ms-btn-icon img {
+  width: 100%;
+}
+#hero .ms-btn small {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+#hero .ms-btn h6 {
+  font-size: 22px;
+  line-height: 0.6;
+  font-weight: 800;
+}
+#hero .ip-btn {
+  color: white;
+}
+#hero .ip-btn a {
+  color: white;
+  opacity: 0.7;
+}
+#hero .ip-btn a:hover {
+  opacity: 1;
+}
+#hero object {
+  position: absolute;
+  top: 50%;
+  rotate: -45deg;
+}
 
 .nav-box {
   position: absolute;
@@ -51,6 +117,9 @@ body {
 .nav-item {
   text-transform: uppercase;
   font-weight: 500;
+}
+.nav-item i {
+  font-size: 20px;
 }
 
 .navbar-nav .nav-link.active,
